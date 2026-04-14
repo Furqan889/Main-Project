@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sclothers</title>
+    <link rel="stylesheet" href="Sclothers.css">
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <div class="logo">SCLOTHERS</div>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">New Arrivals</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="icons">
+        <span>🔍</span>
+        <span>🛒</span>
+    </div>
+</header>
+
+<!-- Hero Section -->
+<section class="hero">
+    <h1>New Season Collection</h1>
+    <p style="color: black;">Discover the latest trends</p>
+    <button>Shop Now</button>
+</section>
+
+<!-- Products -->
+<section class="products">
+    <h2>Featured Products</h2>
+
+    <div class="product-grid">
+        <div class="product-card">
+            <img src="https://via.placeholder.com/250" alt="">
+            <h3>Black Hoodie</h3>
+            <p>$45</p>
+        </div>
+
+        <div class="product-card">
+            <img src="https://via.placeholder.com/250" alt="">
+            <h3>White T-Shirt</h3>
+            <p>$25</p>
+        </div>
+
+        <div class="product-card">
+            <img src="https://via.placeholder.com/250" alt="">
+            <h3>Denim Jacket</h3>
+            <p>$70</p>
+        </div>
+    </div>
+</section>
+
+<!-- Banner -->
+<section class="banner">
+    <h2>Sale Up To 50% Off</h2>
+</section>
+<div class="product-container">
+
+  <!-- Product Image -->
+  <div class="product-image">
+    <img src="https://via.placeholder.com/400" alt="Product">
+  </div>
+
+  <!-- Product Details -->
+  <div class="product-details">
+    <h1>Black Hoodie</h1>
+    <p class="price">$45</p>
+    <p class="desc">Premium quality hoodie with modern fit.</p>
+
+    <!-- Size Selector -->
+    <div class="sizes">
+      <h3>Select Size:</h3>
+      <div class="size-options">
+        <button class="size-btn">S</button>
+        <button class="size-btn">M</button>
+        <button class="size-btn">L</button>
+        <button class="size-btn">XL</button>
+      </div>
+    </div>
+
+    <!-- Add to Cart -->
+    <!-- <button class="add-cart" onclick="addToCart()">Add to Cart</button> -->
+<button onclick="addToCart('Black Hoodie', 45, selectedSize)">
+  Add to Cart
+</button>
+    <p id="selected-size"></p>
+    <h1>Your Cart</h1>
+
+<div id="cart-items"></div>
+
+<h2 id="total"></h2>
+  </div>
+
+</div>
+
+
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 SCLOTHERS. All Rights Reserved.</p>
+</footer>
+<script src="sclothers.js"></script>
+</body>
+</html>
+    
